@@ -1,0 +1,83 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+  background-image: url('../Images/Background2.jpeg');
+  background-position: right;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+  color: white;
+}
+
+.L-title {
+  font-size: 84px;
+  text-align: center;
+}
+
+.L-title-login {
+  font-size: 38px;
+  text-align: center;
+}
+
+.L-div-input {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.L-div-input2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45px;
+}
+
+.input-login {
+  width: 70%;
+  border-radius: 17px !important;
+  margin-top: 17px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.input-login::placeholder{
+  color: white;
+}
+.L-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  width: 200px;
+  padding: 8px;
+  height: 50px;
+  color: #fff;
+  border: 2px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none !important;
+  transition: 0.3s;
+  border-radius: 25px;
+  font-size: 20px;
+}
+
+.L-button:hover {
+  text-decoration: none !important;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.L-text {
+  font-size: 28px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.L-message {
+  text-align: center;
+}
